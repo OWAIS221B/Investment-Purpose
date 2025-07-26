@@ -1,0 +1,155 @@
+.sip-section {
+  /* background-color: #eef3ff; */
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.sub-heading {
+  color: #f59e0b;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.main-heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: black !important;
+}
+
+.description {
+  max-width: 620px;
+  margin: 0 auto 2rem;
+  color: black !important;
+  font-size: 0.95rem;
+}
+
+.calculator-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  background-color: #c9cee8;
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.calculator-box {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.mode-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.mode-toggle button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #1e293b;
+  color: white;
+  transition: 0.3s;
+}
+
+.mode-toggle button.active {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.input-group p {
+  margin-bottom: 0.4rem;
+  color: black;
+}
+
+.earning-result {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.earning-result span {
+  color: #f97316;
+  font-weight: bold;
+}
+
+.result-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  /* min-width: 300px;
+  max-width: 400px; */
+}
+
+.pie-image {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.amount-details {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.amount-details p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.amount {
+  font-weight: 700;
+}
+
+.amount.invested {
+  color: #f59e0b;
+}
+
+.amount.return {
+  color: #1e293b;
+}
+
+.invest-button {
+  margin-top: 1rem;
+  background-color: #f59e0b;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.view-all-button {
+  margin-top: 2rem;
+  background-color: #f59e0b;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
