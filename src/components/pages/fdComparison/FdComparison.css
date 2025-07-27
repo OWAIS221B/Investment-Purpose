@@ -1,0 +1,159 @@
+.fd-section {
+  padding: 40px 20px;
+  background-color: #f7f8fa;
+  text-align: center;
+}
+
+.fd-header .highlight {
+  color: #ff9900;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.fd-header h2 {
+  font-size: 28px;
+  color: #0e1e42;
+  margin: 0;
+}
+
+.input-controls {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.input-group input[type='range'] {
+  width: 250px;
+  accent-color: #ff9900;
+}
+
+.range-value {
+  margin-top: 5px;
+  background-color: #fff;
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.returns-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.return-card {
+  background: #0e1e42;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 240px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.myyy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.myy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.return-card h4 {
+  color: #ffcc66;
+  text-align: start;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  margin-top: 10px;
+}
+
+.card-content > div {
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* .card-content h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffcc66;
+  margin: 0;
+}
+*/
+
+/* .card-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 6px 0 0 0;
+} */
+
+.card-content p {
+  font-size: 13px;
+  color: #ddd;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.card-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  background-color: #ff9900;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #e68600;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .returns-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}

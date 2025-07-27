@@ -21,19 +21,19 @@
 
 .content-wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
   position: relative;
   z-index: 1;
-  flex-wrap: wrap;
-  gap: 40px;
 }
 
 .image-column {
-  /* border: 1px solid green; */
+  flex: 1 1 400px;
   position: relative;
-  max-width: 500px;
 }
 
 .experience-badge {
@@ -41,8 +41,8 @@
   align-items: center;
   gap: 6px;
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 60px;
+  right: -60px;
   background-color: #fff;
   color: #0e1e42;
   padding: 10px 16px;
@@ -77,15 +77,6 @@
   border-radius: 12px;
 }
 
-.experience-badge {
-  margin-left: 350px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  width: 170px;
-  margin-bottom: 20px;
-}
-
 .text-column {
   flex: 1 1 500px;
   display: flex;
@@ -109,7 +100,7 @@
 .description {
   font-size: 16px;
   line-height: 1.6;
-  color: #e0e0e0;
+  color: white !important;
 }
 
 .why-us p {
@@ -127,6 +118,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s ease;
+  width: 60%;
 }
 
 .cta-button:hover {
@@ -151,12 +143,8 @@
     transform: translateX(-50%);
     position: absolute;
   }
-}
-/* @media (max-width: 768px) {
-  .experience-badge {
-    bottom: -20px;
-    left: 50%;
-    right: auto;
-    transform: translateX(-50%);
+  .cta-button {
+    align-self: center;
+    width: 80%;
   }
-} */
+}

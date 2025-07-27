@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-.content-wrapper {
+.content-wrappe {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -28,21 +28,21 @@
   letter-spacing: 1px;
 }
 
-.main-heading {
+.main-headin {
   font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
   color: white !important;
 }
 
-.description {
+.descriptio {
   font-size: 1.1rem;
   margin-bottom: 2.5rem;
   color: white !important;
   max-width: 700px;
 }
 
-.table-wrapper {
+.table-wrappe {
   /* margin-top: -4rem; Pull the table upward to overlap the background */
   width: 100%;
   max-width: 1000px;
@@ -120,11 +120,11 @@
     font-size: 1.8rem;
   }
 
-  .description {
+  .descriptio {
     font-size: 1rem;
     margin-bottom: 2rem;
   }
-  .table-wrapper {
+  .table-wrappe {
     margin-top: 2rem; /* No overlap on small screens */
   }
   .table-row {

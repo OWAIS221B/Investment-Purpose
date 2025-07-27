@@ -1,5 +1,5 @@
-import pieChart from '../../../assets/chart.png'
-import './SIPCalculator.css'
+import pieChart from "../../../assets/chart.png";
+import "./SIPCalculator.css";
 
 const SIPCalculator = () => {
   return (
@@ -50,25 +50,29 @@ const SIPCalculator = () => {
 
         {/* Right box */}
         <div className="result-box">
-          <img src={pieChart} alt="Pie chart" className="pie-image" />
+          {/* Chart Section */}
+          <div className="chart-container">
+            <img src={pieChart} alt="Pie chart" className="pie-image" />
+          </div>
 
+          {/* Amount Section */}
           <div className="amount-details">
             <p>
-              Your Invested Amount will be{' '}
+              Your Invested Amount will be{" "}
               <span className="amount invested">₹ 6,00,000</span>
             </p>
             <p>
-              Your Estimated Return will be{' '}
+              Your Estimated Return will be{" "}
               <span className="amount return">₹ 2,24,864</span>
             </p>
             <button className="invest-button">Invest Now</button>
           </div>
         </div>
       </div>
+      <button className="view-all-button">View all Calculators</button> 
 
-      <button className="view-all-button">View all Calculators</button>
     </section>
-  )
-}
+  );
+};
 
-export default SIPCalculator
+export default SIPCalculator;

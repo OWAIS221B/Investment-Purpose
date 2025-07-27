@@ -7,15 +7,15 @@ const MFDComparison = () => {
       className="mfd-section"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <div className="content-wrapper">
+      <div className="content-wrappe">
         <h3 className="highlight-title">DIY Platforms vs Guided Investing</h3>
-        <h2 className="main-heading">Why Choose an MFD?</h2>
-        <p className="description">
+        <h2 className="main-headin">Why Choose an MFD?</h2>
+        <p className="descriptio">
           You can choose funds on your own. Or you can work with someone who
           does this every day — and helps you avoid big mistakes.
         </p>
 
-        <div className="table-wrapper">
+        <div className="table-wrappe">
           <div className="comparison-table">
             <div className="table-row header">
               <div>Parameter</div>

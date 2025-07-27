@@ -38,7 +38,7 @@ const MutualFundBenefits = () => {
       <div className="feature-cards">
         {features.map((feature, index) => (
           <div className="card" key={index}>
-            <img src={feature.img} alt={feature.title} className="card-icon" />
+            <img src={feature.img} alt={feature.title} className="card-ico" />
           </div>
         ))}
       </div>

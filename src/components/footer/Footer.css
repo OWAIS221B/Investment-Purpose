@@ -97,3 +97,66 @@
 .footer-bottom a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .footer-col,
+  .logo-col {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 20px;
+    font-size: 13px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  .footer-col h4 {
+    margin-top: 20px;
+  }
+
+  .footer-col ul {
+    padding-left: 0;
+  }
+
+  .footer-col ul li {
+    margin-bottom: 8px;
+  }
+
+  .footer-amfi,
+  .footer-links,
+  .footer-disclaimer {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .footer-bottom span {
+    display: block;
+  }
+}
