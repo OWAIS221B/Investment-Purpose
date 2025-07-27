@@ -144,7 +144,7 @@
   background-color: #e68600;
 }
 
-/* Responsive Tweaks */
+
 @media (max-width: 768px) {
   .returns-row {
     flex-direction: column;

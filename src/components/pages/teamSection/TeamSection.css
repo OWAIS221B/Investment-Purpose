@@ -65,7 +65,7 @@
   font-size: 14px;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .team-heading {
     font-size: 22px;

@@ -101,7 +101,7 @@ form button:hover {
   display: block;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .connect-wrapper {
     flex-direction: column;

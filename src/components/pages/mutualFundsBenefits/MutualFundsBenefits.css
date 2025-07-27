@@ -86,7 +86,7 @@
   background-color: #d77c00;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .main-heading {
     font-size: 22px;

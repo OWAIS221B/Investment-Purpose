@@ -1,20 +1,20 @@
-/* General layout */
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0; /* Removed padding so Navbar aligns edge-to-edge */
+  padding: 0;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Optional: Background setup for blur effect in Navbar */
+
 body {
   margin: 0;
-  /* background: url('/your-background.jpg') no-repeat center center fixed; */
+
   background-size: cover;
 }
 
-/* LOGO styles */
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -28,7 +28,7 @@ body {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* Optional spinning animation for React logo */
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -43,12 +43,12 @@ body {
   }
 }
 
-/* Card styling */
+
 .card {
   padding: 2em;
 }
 
-/* Doc link text */
+
 .read-the-docs {
   color: #888;
 }

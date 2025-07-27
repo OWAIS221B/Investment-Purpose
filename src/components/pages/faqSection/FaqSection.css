@@ -104,9 +104,7 @@
   background-color: #ff8a00;
 }
 
-/* ------------------------
-   Responsive Styles
------------------------- */
+
 
 @media (max-width: 992px) {
   .faq-container {

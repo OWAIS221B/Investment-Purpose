@@ -1,11 +1,13 @@
 import React from 'react'
 import './ConnectForm.css'
-import agentImage from '../../../assets/contact.png' // adjust path if needed
+import agentImage from '../../../assets/contact.png' 
 
 const ConnectForm = () => {
   return (
     <section className="connect-section">
       <div className="connect-wrapper">
+
+        
         {/* Left Form Block */}
         <div className="connect-form">
           <p className="connect-subtitle">Start Investing</p>

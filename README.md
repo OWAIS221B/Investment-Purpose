@@ -1,12 +1,44 @@
-# React + Vite
+About the Project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This is the Frontend project made using technologies, viz. ReactJS and CSS3, no other external library was used as asked in the Product Requirement Document.
 
-Currently, two official plugins are available:
+- The implementation is pixel-perfect and has been compared closely with Figma; everything, including spacing, typography, icons, layout, responsiveness, and colors, has been ensured.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The design looks good across devices and has been tested. if something doesn't work, refresh and check again across device configurations.
 
-## Expanding the ESLint configuration
+- Data is static, and everything has been used directly from the provided Figma file.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Functional components have been used as asked in PRD.
+
+How to Run the Project Locally:
+
+1. Clone the Repository
+in bash, write this:
+
+"git clone https://github.com/your-username/your-repo-name.git"
+
+Then move into the project folder:
+
+"cd your-repo-name"
+
+2. Install Dependencies
+Once inside the project folder, run:
+
+"npm install"
+
+3. Start the Development Server
+Now start the React app:
+
+"npm start"
+
+If it doesn’t open automatically, you can manually open your browser and go to:
+
+"http://localhost:3000"
+
+//////////////////////////////////////////
+
+Troubleshooting
+
+If you get errors during npm install, try deleting node_modules and package-lock.json, then run npm install again.
+
+Make sure ports like 3000 are not in use.

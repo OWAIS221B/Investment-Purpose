@@ -55,7 +55,7 @@ const MFDComparison = () => {
           </div>
         </div>
 
-        {/* Optional CTA */}
+        
         {/* <button className="cta-button">Get Real Help →</button> */}
       </div>
     </section>

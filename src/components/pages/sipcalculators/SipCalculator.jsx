@@ -15,7 +15,7 @@ const SIPCalculator = () => {
       </p>
 
       <div className="calculator-container">
-        {/* Left box */}
+        
         <div className="calculator-box">
           <div className="mode-toggle">
             <button className="active">SIP</button>
@@ -48,14 +48,14 @@ const SIPCalculator = () => {
           </div>
         </div>
 
-        {/* Right box */}
+       
         <div className="result-box">
-          {/* Chart Section */}
+          
           <div className="chart-container">
             <img src={pieChart} alt="Pie chart" className="pie-image" />
           </div>
 
-          {/* Amount Section */}
+         
           <div className="amount-details">
             <p>
               Your Invested Amount will be{" "}

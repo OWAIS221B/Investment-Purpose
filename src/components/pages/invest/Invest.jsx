@@ -77,6 +77,8 @@ const SectionInvest = () => {
           height="100%"
           preserveAspectRatio="xMidYMid meet"
         >
+          {/* Graph Part */}
+          
           {/* Gradient for MF */}
           <defs>
             <linearGradient id="mfGradient" x1="0" y1="0" x2="0" y2="1">
@@ -89,7 +91,7 @@ const SectionInvest = () => {
           <line x1="40" y1="10" x2="40" y2="360" stroke="#000" />
           <line x1="40" y1="360" x2="560" y2="360" stroke="#000" />
 
-          {/* Y-Axis Labels & Ticks */}
+          {/* Y-Axis*/}
           {[0, 10000, 20000, 30000, 40000].map((val, i) => {
             const y = getY(val)
             return (
@@ -102,7 +104,7 @@ const SectionInvest = () => {
             )
           })}
 
-          {/* X-Axis Labels & Ticks */}
+          {/* X-Axis*/}
           {data.map((point, i) => {
             const x = 40 + i * xStep
             return (

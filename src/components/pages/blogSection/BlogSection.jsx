@@ -8,20 +8,21 @@ const BlogSection = () => {
   return (
     <section className="blog-section">
       <div className="blog-container">
-        {/* Left Side Text */}
         <div className="blog-left">
           <p className="section-label">Learning Center</p>
           <h2 className="blog-heading">
-            Not a Finance Person?<br />No Problem.
+            Not a Finance Person?
+            <br />
+            No Problem.
           </h2>
           <p className="blog-description">
-            We break down finance into easy reads that actually make sense. From choosing the right fund to
-            understanding inflation, our blog helps you invest smarter
+            We break down finance into easy reads that actually make sense. From
+            choosing the right fund to understanding inflation, our blog helps
+            you invest smarter
           </p>
           <button className="blog-btn">View All Blogs →</button>
         </div>
 
-        {/* Blog Cards */}
         <div className="blog-right">
           <div className="blog-card">
             <img src={blog1} alt="blog-1" />

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './FAQSection.css'
-import faqImage from '../../../assets/employees.png' // adjust path as needed
+import faqImage from '../../../assets/employees.png' 
 
 const faqs = [
   {
@@ -15,7 +15,7 @@ const faqs = [
 ]
 
 const FAQSection = () => {
-  const [openIndex, setOpenIndex] = useState(0) // first one expanded
+  const [openIndex, setOpenIndex] = useState(0) 
 
   const toggleFAQ = (index) => {
     setOpenIndex(index === openIndex ? null : index)
