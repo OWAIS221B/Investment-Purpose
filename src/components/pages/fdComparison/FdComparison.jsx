@@ -27,7 +27,10 @@ const FDComparison = () => {
 
       <div className="input-controls">
         <div className="input-group">
-          <label>Monthly Invested Amount</label>
+          <div className="myyy">
+            <label>Monthly Invested Amount</label>
+            <p>₹ 5000</p>
+          </div>
           <input
             type="range"
             min="1000"
@@ -36,11 +39,13 @@ const FDComparison = () => {
             value={amount}
             onChange={(e) => setAmount(+e.target.value)}
           />
-          <div className="range-value">₹ {amount}</div>
         </div>
 
         <div className="input-group">
-          <label>Time Period (in years)</label>
+          <div className="myyy">
+            <label>Time Period (in years)</label>
+            <p>10</p>
+          </div>
           <input
             type="range"
             min="1"
@@ -48,14 +53,13 @@ const FDComparison = () => {
             value={years}
             onChange={(e) => setYears(+e.target.value)}
           />
-          <div className="range-value">{years}</div>
         </div>
       </div>
 
       <div className="returns-row">
         <div className="return-card">
           <h4>Saving Account</h4>
-          <div className="card-content">
+          <div className="card-conten">
             <div>
               <h3>₹ {calculateReturn(3.5)}</h3>
               <p>(with 3.5% return)</p>
@@ -66,7 +70,7 @@ const FDComparison = () => {
 
         <div className="return-card">
           <h4>Fixed Deposit</h4>
-          <div className="card-content">
+          <div className="card-conten">
             <div>
               <h3>₹ {calculateReturn(6)}</h3>
               <p>(with 6% return)</p>
@@ -77,7 +81,7 @@ const FDComparison = () => {
 
         <div className="return-card">
           <h4>Gold</h4>
-          <div className="card-content">
+          <div className="card-conten">
             <div>
               <h3>₹ {calculateReturn(9)}</h3>
               <p>(with 9% return)</p>
@@ -88,7 +92,7 @@ const FDComparison = () => {
 
         <div className="return-card">
           <h4>Mutual Fund</h4>
-          <div className="card-content">
+          <div className="card-conten">
             <div>
               <h3>₹ {calculateReturn(12)}</h3>
               <p>(with 12% return)</p>

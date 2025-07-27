@@ -76,19 +76,13 @@
   gap: 14px;
 }
 
-.myy {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 14px;
-}
-
 .return-card h4 {
   color: #ffcc66;
   text-align: start;
 }
 
-.card-content {
+.card-conten {
+  /* border: 1px solid green; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -96,9 +90,9 @@
   margin-top: 10px;
 }
 
-.card-content > div {
+/* .card-content > div {
   text-align: left;
-}
+} */
 
 .card-content h3 {
   font-size: 24px;
