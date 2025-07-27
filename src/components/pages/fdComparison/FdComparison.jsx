@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './FDComparison.css'
+import './FdComparison.css'
 
 import savingIcon from '../../../assets/savings1.png'
 import depositIcon from '../../../assets/deposit1.png'
