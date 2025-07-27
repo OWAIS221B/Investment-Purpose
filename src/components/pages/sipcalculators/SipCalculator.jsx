@@ -1,5 +1,5 @@
 import pieChart from "../../../assets/chart.png";
-import "./SIPCalculator.css";
+import "./SipCalculator.css";
 
 const SIPCalculator = () => {
   return (
