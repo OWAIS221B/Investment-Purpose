@@ -15,11 +15,11 @@ How to Run the Project Locally:
 1. Clone the Repository
 in bash, write this:
 
-"git clone https://github.com/your-username/your-repo-name.git"
+"git clone https://github.com/OWAIS221B/Investment-Purpose.git"
 
 Then move into the project folder:
 
-"cd your-repo-name"
+"cd Investment-Purpose"
 
 2. Install Dependencies
 Once inside the project folder, run:
